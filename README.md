@@ -67,10 +67,12 @@ class Sumit:
 
 | Project | Description | Tech |
 |--------|-------------|------|
+| [**FedVibroSense_STM32**](https://github.com/roboticist-blip/FedVibroSense_STM32) | A STM32F405RGT6 Based on-device federated learning node  | `C++` `C` `STM32` `Edge AI`  `Fed_ML`|
+| [**SensiNerveX**](https://github.com/roboticist-blip/SensiNerveX) | On-device training of a feedforward neural network directly on the Seeed XIAO ESP32-S3 microcontroller   | `C` `C++` `ESP32_S3` `Edge AI`  `Fed_ML`|
+| [**LoRa32T**](https://github.com/roboticist-blip/LoRa32T) | An Encrypted LoRa telemetry over ESP32 With auto-adpative encryption mode | `C++` `ESP32` `LoRa` |
 | [**LoRa8266T**](https://github.com/roboticist-blip/LoRa8266T) | LoRa telemetry over ESP8266 connected to MCUs via UART — long-range, low-power data link | `C++` `ESP8266` `LoRa` |
 | [**smart_Air-pad**](https://github.com/roboticist-blip/smart_Air-pad) | Turn any finger or pen into a virtual drawing tool — no touchscreen required | `Python` `OpenCV` `Computer Vision` |
-| [**uMotionPython**](https://github.com/roboticist-blip/uMotionPython) | Motion utilities for microcontroller-class Python environments | `Python` `Embedded` |
-| [**Portfolio**](https://roboticist-blip.github.io) | Personal site showcasing projects, research, and engineering work | `JavaScript` `Web` |
+| [**NanoSplat**](https://github.com/roboticist-blip/NanoSplat) | A real-time pipeline that takes live monocular video as input and outputs a coloured, segmented 3D point cloud of a specific user-named object — on hardware that costs under $100  | `Python` `OpenCV` `Computer Vision` `Jetson-Nano`|
 
 ---
 
