@@ -1,9 +1,9 @@
 <div align="center">
 
 # 🤖 Sumit Maheshwari
-### Robotics Engineer · Embedded AI Developer · IoT Architect
+### Embedded Systems Engineer · Robotics Researcher · Professional Datasheet Reader
 
-*Bridging the gap between intelligence and hardware — deploying smart models where resources are scarce.*
+*"Because apparently running neural networks on hardware that barely has enough RAM is considered fun."*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-maheshwari-57160b237)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0001-5283-7641)
@@ -17,49 +17,87 @@
 
 ## 👨‍💻 About Me
 
-I'm a **robotics and electronics enthusiast** passionate about making intelligent systems run on constrained hardware. My work sits at the intersection of **embedded systems**, **computer vision**, and **edge AI** — taking models that typically demand data centers and squeezing them onto microcontrollers and single-board computers.
+I'm an electronics and robotics engineer who enjoys making hardware do things it was never designed to do.
+
+Most people deploy AI on GPUs.
+
+I deploy it on microcontrollers and then spend three days wondering why I have **12 bytes of SRAM left.**
+
+My current work revolves around **Embedded AI, Robotics, FPGA acceleration, TinyML, Edge Vision, and Distributed Embedded Systems**, where the goal is simple:
+
+> **Make hardware think before it runs out of memory.**
 
 ```python
 class Sumit:
-    focus      = ["Edge AI", "Robotics", "Embedded Systems", "IoT"]
-    hardware   = ["Raspberry Pi", "ESP8266/ESP32", "Arduino", "NVIDIA Jetson"]
-    protocols  = ["LoRa", "Zigbee", "UART", "MQTT", "I2C/SPI"]
-    currently  = "Deploying intelligent models on low-performance boards 🔬"
-    ask_me     = "Anything about robotics, edge ML, or embedded firmware"
+
+    currently_breaking = [
+        "STM32",
+        "ESP32",
+        "FPGA",
+        "Raspberry Pi"
+    ]
+
+    research = [
+        "Embedded AI",
+        "On-device Learning",
+        "Federated TinyML",
+        "FPGA Accelerators",
+        "Computer Vision"
+    ]
+
+    hobbies = [
+        "Reading 1200-page datasheets",
+        "Optimizing until the compiler gives up",
+        "Removing printf() to save Flash",
+        "Finding one missing semicolon after 3 hours"
+    ]
+
+    current_status = "Compiling..."
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🧠 AI / Machine Learning
+### ⚡ Embedded Systems
+
+![STM32](https://img.shields.io/badge/STM32-%2303234B.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-%23222.svg?style=for-the-badge&logo=platformio&logoColor=%23f5822a)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Verilog](https://img.shields.io/badge/Verilog-ED1C24?style=for-the-badge)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
+
+---
+
+### 🧠 AI / Edge AI
+
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Edge Impulse](https://img.shields.io/badge/Edge%20Impulse-8A2BE2?style=for-the-badge)
+![TinyML](https://img.shields.io/badge/TinyML-009688?style=for-the-badge)
 
-### 🤖 Robotics & Embedded
-![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-%23222.svg?style=for-the-badge&logo=platformio&logoColor=%23f5822a)
-![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+---
 
-### 🌐 IoT & Connectivity
-![Zigbee](https://img.shields.io/badge/zigbee-%23EB0443.svg?style=for-the-badge&logo=zigbee&logoColor=white)
-![Node-RED](https://img.shields.io/badge/Node--RED-%238F0000.svg?style=for-the-badge&logo=node-red&logoColor=white)
-![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+### 📡 Communication
 
-### 💻 Languages & Backend
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![LoRa](https://img.shields.io/badge/LoRa-00599C?style=for-the-badge)
+![UART](https://img.shields.io/badge/UART-grey?style=for-the-badge)
+![SPI](https://img.shields.io/badge/SPI-grey?style=for-the-badge)
+![I2C](https://img.shields.io/badge/I2C-grey?style=for-the-badge)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt)
+![Zigbee](https://img.shields.io/badge/Zigbee-EB0443?style=for-the-badge&logo=zigbee&logoColor=white)
+
+---
+
+### 💻 Languages
+
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 ---
 
@@ -67,12 +105,12 @@ class Sumit:
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| [**FedVibroSense_STM32**](https://github.com/roboticist-blip/FedVibroSense_STM32) | A STM32F405RGT6 Based on-device federated learning node  | `C++` `C` `STM32` `Edge AI`  `Fed_ML`|
-| [**SensiNerveX**](https://github.com/roboticist-blip/SensiNerveX) | On-device training of a feedforward neural network directly on the Seeed XIAO ESP32-S3 microcontroller   | `C` `C++` `ESP32_S3` `Edge AI`  `Fed_ML`|
-| [**LoRa32T**](https://github.com/roboticist-blip/LoRa32T) | An Encrypted LoRa telemetry over ESP32 With auto-adpative encryption mode | `C++` `ESP32` `LoRa` |
-| [**LoRa8266T**](https://github.com/roboticist-blip/LoRa8266T) | LoRa telemetry over ESP8266 connected to MCUs via UART — long-range, low-power data link | `C++` `ESP8266` `LoRa` |
-| [**smart_Air-pad**](https://github.com/roboticist-blip/smart_Air-pad) | Turn any finger or pen into a virtual drawing tool — no touchscreen required | `Python` `OpenCV` `Computer Vision` |
-| [**NanoSplat**](https://github.com/roboticist-blip/NanoSplat) | A real-time pipeline that takes live monocular video as input and outputs a coloured, segmented 3D point cloud of a specific user-named object — on hardware that costs under $100  | `Python` `OpenCV` `Computer Vision` `Jetson-Nano`|
+| [**FedVibroSense_STM32**](https://github.com/roboticist-blip/FedVibroSense_STM32) | Federated Learning on STM32 because cloud servers are expensive. | `STM32` `TinyML` `Federated Learning` |
+| [**SensiNerveX**](https://github.com/roboticist-blip/SensiNerveX) | Teaching an ESP32 to learn new patterns without forgetting the old ones. Humans should learn this too. | `ESP32-S3` `Embedded AI` `Continual Learning` |
+| [**NanoSplat**](https://github.com/roboticist-blip/NanoSplat) | Real-time monocular 3D understanding on hardware that definitely shouldn't be doing 3D reconstruction. | `Jetson Nano` `Computer Vision` |
+| [**FPGA AI Accelerator**](https://github.com/roboticist-blip) | Seeing how much AI fits into programmable logic before timing reports start crying. | `Verilog` `FPGA` `AI` |
+| [**LoRa32T**](https://github.com/roboticist-blip/LoRa32T) | Secure telemetry because sending plain-text packets in 2026 feels illegal. | `ESP32` `LoRa` |
+| [**uMotion**](https://github.com/roboticist-blip) | Motion detection without throwing a neural network at every engineering problem. Mathematics still works. | `Embedded C` `Signal Processing` |
 
 ---
 
@@ -80,11 +118,11 @@ class Sumit:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=roboticist-blip&theme=flag-india&hide_border=false&include_all_commits=false&count_private=false)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=roboticist-blip&theme=flag-india&hide_border=false&include_all_commits=true&count_private=true)
 
 ![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=roboticist-blip&theme=flag-india&hide_border=false)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=roboticist-blip&theme=flag-india&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=roboticist-blip&theme=flag-india&hide_border=false&layout=compact)
 
 </div>
 
@@ -102,25 +140,59 @@ class Sumit:
 
 ## 🔬 Research
 
-I maintain an **ORCID researcher profile** — my work explores practical applications of embedded intelligence in robotics and IoT systems.
+Currently exploring:
+
+- 🧠 On-device Learning
+- ⚡ FPGA AI Acceleration
+- 🤖 TinyML & Edge AI
+- 📡 Federated Learning
+- 👁️ Embedded Computer Vision
+- 🔋 Resource-Constrained Intelligence
+
+I maintain an **ORCID researcher profile** documenting my published and ongoing research.
 
 [![ORCID](https://img.shields.io/badge/ORCID%20Profile-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-5283-7641)
 
 ---
 
-## 💡 What I'm Working On
+## 💡 Current Mission
 
-- 🧩 **Edge ML** — compressing and deploying neural networks on microcontrollers and SBCs
-- 📡 **LoRa & Zigbee** mesh networks for sensor telemetry
-- 🦾 **ROS-based** robotic systems with real-time vision pipelines
-- 🏠 **Home automation** systems with local-first AI inference
+- 🧩 Build AI that doesn't need a GPU.
+- ⚡ Make microcontrollers learn on their own.
+- 🔧 Design hardware that survives outside the lab.
+- 🤖 Build robots that don't need cloud permission to think.
+- 📖 Reduce the number of tabs containing datasheets. *(Currently failing.)*
+
+---
+
+## 📈 Engineering Dashboard
+
+```text
+Research Papers      ████████░░
+Firmware Bugs        ██████████
+Coffee               ██████████
+SRAM Available       ██░░░░░░░░
+Datasheets Open      ██████████
+Sleep                ░░░░░░░░░░
+```
 
 ---
 
 <div align="center">
 
-*"The best robot is one that thinks for itself — even on a $5 board."*
+```cpp
+while(true)
+{
+    Learn();
+    Build();
+    Break();
+    Debug();
+    Repeat();
+}
+```
 
-⚡ **Let's build something intelligent together.**
+*"If it compiles on the first try, I'm immediately suspicious."*
+
+⚡ **Always one compiler warning away from another project.**
 
 </div>
