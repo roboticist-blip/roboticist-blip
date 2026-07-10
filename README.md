@@ -107,7 +107,7 @@ class Sumit:
 | [**SensiNerveX_STM32**](https://github.com/roboticist-blip/SensiNerveX_STM32) | Federated Learning on STM32 because cloud servers are expensive. | `STM32` `TinyML` `Federated Learning` |
 | [**SensiNerveX_ESP32**](https://github.com/roboticist-blip/SensiNerveX_ESP32) | Teaching an ESP32 to learn new patterns without forgetting the old ones. Humans should learn this too. | `ESP32-S3` `Embedded AI` `Continual Learning` |
 | [**NanoSplat**](https://github.com/roboticist-blip/NanoSplat) | Real-time monocular 3D understanding on hardware that definitely shouldn't be doing 3D reconstruction. | `Jetson Nano` `Computer Vision` |
-| [**FPGA AI Accelerator**](https://github.com/SensiNerveX_FPGA) | Seeing how much AI fits into programmable logic before timing reports start crying. | `Verilog` `FPGA` `AI` |
+| [**FPGA AI Accelerator**](https://github.com/roboticist-blip/SensiNerveX_FPGA) | Seeing how much AI fits into programmable logic before timing reports start crying. | `Verilog` `FPGA` `AI` |
 | [**LoRa32T**](https://github.com/roboticist-blip/LoRa32T) | Secure telemetry because sending plain-text packets in 2026 feels illegal. | `ESP32` `LoRa` |
 | [**uMotion**](https://github.com/roboticist-blip) | Motion detection without throwing a neural network at every engineering problem. Mathematics still works. | `Embedded C` `Signal Processing` |
 
